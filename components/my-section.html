@@ -1,15 +1,26 @@
 <section>
     My Section
+    <button class="btn">Enviar</button>
 </section>
 
 
 <style>
     section {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: red;
         width: calc(100vw - 30vw);
         height: 50vh;
+    }
+    .btn{
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+        background-color: rgba(0, 0, 0, .7);
+        border: none;
+        padding: 4px;
+        box-shadow: 3px 3px 10px  rgba(0, 0, 0, .7);
     }
 </style>

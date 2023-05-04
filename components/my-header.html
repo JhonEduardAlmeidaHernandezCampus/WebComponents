@@ -1,20 +1,25 @@
 <header>
     My Header
+    <button class="btn">Enviar</button>
 </header>
 
 
 <style>
-
-    html {
-        margin: 0;
-        padding: 0;
-    }
-
     header {
         background-color: blue;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 40px;
+        height: 80px;
+    }
+    .btn {
+        margin-top: 10px;
+        padding: 5px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.7);
+        cursor: pointer;
     }
 </style>

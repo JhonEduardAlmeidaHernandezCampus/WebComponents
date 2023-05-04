@@ -1,5 +1,6 @@
 <nav>
     My Nav
+    <button class="btn">Enviar</button>
 </nav>
 
 
@@ -7,9 +8,19 @@
     nav {
         background: green;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: calc(100vw - 70vw);
         height: 100%;
+    }
+    .btn{
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+        background-color: rgba(0, 0, 0, .7);
+        border: none;
+        padding: 4px;
+        box-shadow: 3px 3px 10px  rgba(0, 0, 0, .7);
     }
 </style>
